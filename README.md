@@ -69,11 +69,11 @@ PSG College of Technology, Anna University, India (2010 – 2012)
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=manoharanaiduguntreddi&show_icons=true&theme=tokyonight" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manoharanaiduguntreddi&layout=compact&theme=tokyonight" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manoharanaiduguntreddi&layout=compact&theme=tokyonight" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=manoharanaiduguntreddi&show_icons=true&theme=tokyonight" alt="GitHub stats" />
 </p>
 
 ---
