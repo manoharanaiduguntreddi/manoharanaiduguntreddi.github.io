@@ -1,5 +1,5 @@
 <!-- Banner Image -->
-![Banner](https://github.com/manoharanaiduguntreddi/manoharanaiduguntreddi/main/banner.png)
+![Banner](https://github.com/manoharanaiduguntreddi/manoharanaiduguntreddi/blob/5a11767142574f73f1fad8772e1247dcfd9a1534/banner.png)
 
 <h1 align="center">Hi 👋, I'm Manohara Naidu Guntreddi</h1>
 <h3 align="center">💻 Senior Java Engineer | ☁️ Cloud & Microservices Expert | 🚀 Performance Optimizer</h3>
