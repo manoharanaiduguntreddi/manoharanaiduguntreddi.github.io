@@ -1,5 +1,5 @@
 <!-- Banner Image -->
-![Banner](https://github.com/yourusername/yourusername/blob/main/assets/banner.png)
+![Banner](https://github.com/manoharanaiduguntreddi/manoharanaiduguntreddi/blob/main/assets/banner.png)
 
 <h1 align="center">Hi 👋, I'm Manohara Naidu Guntreddi</h1>
 <h3 align="center">💻 Senior Java Engineer | ☁️ Cloud & Microservices Expert | 🚀 Performance Optimizer</h3>
