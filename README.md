@@ -73,7 +73,7 @@ PSG College of Technology, Anna University, India (2010 – 2012)
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?manoharanaiduguntreddi=YourUsername&layout=compact&theme=tokyonight" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manoharanaiduguntreddi&layout=compact&theme=tokyonight" alt="Top languages" />
 </p>
 
 ---
