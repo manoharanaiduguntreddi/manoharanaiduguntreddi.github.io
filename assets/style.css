@@ -48,3 +48,22 @@
 
 /* Smooth scroll offset for fixed navbar */
 :target::before{ content:""; display:block; height:70px; margin-top:-70px; visibility:hidden; }
+
+/* Attractive avatar styling */
+.avatar img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar img.hover-scale:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.avatar h3 {
+  color: var(--bs-primary);
+  letter-spacing: 0.5px;
+}
+
