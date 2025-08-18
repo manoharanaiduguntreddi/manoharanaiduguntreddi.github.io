@@ -308,6 +308,118 @@
   </div>
 </section>
 
+<!-- ============ Projects (with Achievements) ============ -->
+<section id="projects" class="section bg-body-secondary">
+  <div class="container">
+    <h2 class="h3 mb-4">Highlighted Projects & Achievements</h2>
+
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <article class="card h-100 hover-rise proj-card rounded-4">
+          <div class="card-body">
+            <header class="d-flex align-items-start justify-content-between mb-2">
+              <h3 class="h5 mb-0">Control Center & Chat · CGM</h3>
+              <span class="proj-badge">Healthcare · B2B</span>
+            </header>
+            <p class="small text-muted mb-3">
+              Healthcare AI assistant built with microservices for triage, routing, and clinician productivity.
+            </p>
+
+            <!-- Stack chips -->
+            <ul class="proj-stack">
+              <li>Java 17</li><li>Spring Boot</li><li>Kafka</li><li>PostgreSQL</li><li>Redis</li><li>AKS</li><li>OpenAI APIs</li><li>Grafana</li>
+            </ul>
+
+            <!-- Achievements -->
+            <ul class="proj-achievements">
+              <li><strong>30% latency drop</strong> after AKS tuning (HPA + request/limit right-sizing, gRPC for hot paths).</li>
+              <li><strong>40% faster</strong> response for AI-assisted endpoints via prompt optimization & caching (Redis + ELK tracing).</li>
+              <li>Rolled out <strong>blue/green</strong> releases through GitLab CI/CD; <strong>zero-downtime</strong> upgrades.</li>
+              <li>Introduced <strong>SLOs</strong> (99.9% API), alerting on RED metrics; reduced P1 incidents quarter-over-quarter.</li>
+            </ul>
+
+            <footer class="proj-meta">
+              <span class="meta-pill">Team: 6</span>
+              <span class="meta-pill">Users: 1k+ internal</span>
+              <span class="meta-pill">Role: Lead Backend</span>
+            </footer>
+          </div>
+        </article>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <article class="card h-100 hover-rise proj-card rounded-4">
+          <div class="card-body">
+            <header class="d-flex align-items-start justify-content-between mb-2">
+              <h3 class="h5 mb-0">Energy Microservices Platform</h3>
+              <span class="proj-badge">IoT · Data</span>
+            </header>
+            <p class="small text-muted mb-3">
+              Event-driven ingestion and analytics platform processing high-volume telemetry for industrial energy efficiency.
+            </p>
+
+            <ul class="proj-stack">
+              <li>Spring Boot</li><li>Kafka</li><li>PostgreSQL</li><li>Azure AKS</li><li>API Gateway</li><li>GitLab CI/CD</li>
+            </ul>
+
+            <ul class="proj-achievements">
+              <li>Stabilized throughput to <strong>2M+ events/day</strong> with back-pressure & topic partitioning strategy.</li>
+              <li>Query time cut by <strong>~25%</strong> via index tuning, partial indexes & read replicas.</li>
+              <li>Designed <strong>rate-limited</strong> public APIs; improved partner SLA compliance to <strong>99.8%</strong>.</li>
+              <li>Cost-optimized AKS nodes with spot pools and vertical autoscaler (double-digit monthly savings).</li>
+            </ul>
+
+            <footer class="proj-meta">
+              <span class="meta-pill">Team: 8</span>
+              <span class="meta-pill">Events/day: 2M+</span>
+              <span class="meta-pill">Role: Senior Engineer</span>
+            </footer>
+          </div>
+        </article>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <article class="card h-100 hover-rise proj-card rounded-4">
+          <div class="card-body">
+            <header class="d-flex align-items-start justify-content-between mb-2">
+              <h3 class="h5 mb-0">University IAM Platform</h3>
+              <span class="proj-badge">Security · IAM</span>
+            </header>
+            <p class="small text-muted mb-3">
+              Identity & Access microservices with CQRS, automated provisioning, and audit-ready event trails.
+            </p>
+
+            <ul class="proj-stack">
+              <li>Java</li><li>Spring Boot</li><li>CQRS</li><li>Kafka</li><li>Redis</li><li>PostgreSQL</li><li>JUnit/Mockito</li>
+            </ul>
+
+            <ul class="proj-achievements">
+              <li><strong>85%+</strong> unit test coverage; regression leaks reduced across 3 release cycles.</li>
+              <li>Provisioning pipeline latency down by <strong>~45%</strong> using async orchestration & idempotent consumers.</li>
+              <li>Fine-grained <strong>RBAC</strong> & JWT with rotation policy; passed internal security audit on first attempt.</li>
+              <li>Introduced <strong>dead-letter</strong> handling & replay; improved recovery MTTR significantly.</li>
+            </ul>
+
+            <footer class="proj-meta">
+              <span class="meta-pill">Team: 5</span>
+              <span class="meta-pill">Accounts: 100k+</span>
+              <span class="meta-pill">Role: Senior Dev</span>
+            </footer>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Optional: one-liner CTA -->
+    <div class="text-center mt-4">
+      <a class="btn btn-primary rounded-pill px-4" href="#experience">See experience details</a>
+    </div>
+  </div>
+</section>
+
 
   <!-- Education & Certs -->
   <section id="education" class="section">

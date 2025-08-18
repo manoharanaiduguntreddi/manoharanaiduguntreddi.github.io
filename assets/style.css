@@ -110,4 +110,36 @@
   .exp-tabs .nav-link { width: 100%; text-align: left; }
 }
 
+/* ===== Projects styling with achievements ===== */
+.proj-card { border: 1px solid var(--bs-border-color); background: var(--bs-body-bg); }
+.proj-badge {
+  font-size: .7rem; line-height: 1; padding: .35rem .5rem; border-radius: .5rem;
+  border: 1px solid rgba(10,132,255,.25); color: #0a84ff; background: rgba(10,132,255,.07);
+  white-space: nowrap;
+}
+.proj-stack, .proj-achievements, .proj-meta { list-style: none; padding-left: 0; margin: 0; }
+.proj-stack { display: flex; flex-wrap: wrap; gap: .35rem .5rem; margin-bottom: .75rem; }
+.proj-stack li {
+  font-size: .72rem; padding: .25rem .5rem; border-radius: .5rem;
+  border: 1px solid var(--bs-border-color); background: var(--bs-light, #f8f9fa);
+}
+.proj-achievements { display: grid; gap: .35rem; margin-bottom: .75rem; }
+.proj-achievements li { font-size: .9rem; position: relative; padding-left: 1rem; }
+.proj-achievements li::before {
+  content: "•"; position: absolute; left: 0; top: 0; color: #0a84ff; font-weight: 700;
+}
+.proj-meta { display: flex; gap: .5rem; flex-wrap: wrap; }
+.meta-pill {
+  font-size: .72rem; padding: .25rem .5rem; border-radius: .5rem; color: var(--bs-secondary-color);
+  background: var(--bs-tertiary-bg, #f1f3f5); border: 1px dashed var(--bs-border-color);
+}
+
+/* Optional: subtle animation */
+.proj-card { transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.proj-card:hover { transform: translateY(-3px); box-shadow: 0 .75rem 1.25rem rgba(0,0,0,.08); border-color: rgba(0,0,0,.12); }
+
+/* Mobile spacing */
+@media (max-width: 576px) {
+  .proj-stack li, .meta-pill { font-size: .75rem; }
+}
 
