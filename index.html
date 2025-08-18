@@ -90,70 +90,93 @@
     </div>
   </header>
 
-  <!-- About -->
-  <section id="about" class="section">
-    <div class="container">
-      <div class="row g-4 align-items-center">
-        <div class="col-lg-8">
-          <h2 class="h3 mb-3">About</h2>
-          <p>I’m a backend-focused engineer with deep experience in building <strong>cloud-native microservices</strong> and <strong>event-driven architectures</strong>. I’ve led production systems in healthcare, energy, and banking—optimizing <strong>latency (-30%)</strong>, <strong>database performance (-25% queries)</strong>, and <strong>reliability</strong> through robust CI/CD and observability.</p>
-          <ul class="icon-list">
-            <li><i class="fa-solid fa-location-dot"></i> Koblenz, Germany</li>
-            <li><i class="fa-solid fa-id-card"></i> EU Blue Card (eligible to work without sponsorship)</li>
-            <li><i class="fa-solid fa-language"></i> English (C2), German (basic, improving)</li>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <div class="card card-glass">
-            <div class="card-body">
-              <h3 class="h6 text-uppercase text-muted mb-3">Core Stack</h3>
-              <div class="d-grid gap-2 small">
-                <span class="badge text-bg-secondary">Java 17–21</span>
-                <span class="badge text-bg-secondary">Spring Boot</span>
-                <span class="badge text-bg-secondary">PostgreSQL</span>
-                <span class="badge text-bg-secondary">Kafka</span>
-                <span class="badge text-bg-secondary">Kubernetes</span>
-                <span class="badge text-bg-secondary">Azure · AWS</span>
-              </div>
-            </div>
-          </div>
-        </div>
+<section id="about" class="section py-5">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-8">
+        <h2 class="h3 title-underline mb-3">About</h2>
+        <p class="mb-3">
+          I’m a backend-focused engineer building <strong>cloud-native microservices</strong> and
+          <strong>event-driven systems</strong>. I’ve led production platforms in healthcare, energy, and banking —
+          optimizing <strong>latency (-30%)</strong>, <strong>DB performance (-25%)</strong>, and <strong>reliability</strong>
+          through solid architecture, CI/CD, and observability.
+        </p>
+        <ul class="list-unstyled text-muted">
+          <li class="mb-2"><i class="fa-solid fa-location-dot me-2 text-primary"></i> Koblenz, Germany</li>
+          <li class="mb-2"><i class="fa-solid fa-id-card me-2 text-primary"></i> EU Blue Card (work eligible)</li>
+          <li class="mb-2"><i class="fa-solid fa-language me-2 text-primary"></i> English (C2), German (basic)</li>
+        </ul>
       </div>
-    </div>
-  </section>
 
-  <!-- Skills -->
-  <section id="skills" class="section bg-body-secondary">
-    <div class="container">
-      <h2 class="h3 mb-4">Skills</h2>
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <h3 class="h6 text-uppercase text-muted">Backend & APIs</h3>
-              <ul class="small columns-2">
-                <li>Java (8–21)</li><li>Kotlin</li><li>Spring Boot</li><li>Spring Cloud</li>
-                <li>REST</li><li>GraphQL</li><li>OpenAPI</li><li>JPA/Hibernate</li>
-                <li>Security (OAuth2/JWT)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <h3 class="h6 text-uppercase text-muted">Cloud & Data</h3>
-              <ul class="small columns-2">
-                <li>Kubernetes</li><li>Docker</li><li>Kafka</li><li>RabbitMQ</li>
-                <li>PostgreSQL</li><li>MySQL</li><li>Redis</li><li>MongoDB</li>
-                <li>Azure · AWS</li><li>GitLab CI/CD</li>
-              </ul>
+      <div class="col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h3 class="h6 text-uppercase text-muted mb-3">Core Stack</h3>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="chip"><span class="dot"></span>Java 17–21</span>
+              <span class="chip"><span class="dot"></span>Spring Boot</span>
+              <span class="chip"><span class="dot"></span>PostgreSQL</span>
+              <span class="chip"><span class="dot"></span>Kafka</span>
+              <span class="chip"><span class="dot"></span>Kubernetes</span>
+              <span class="chip"><span class="dot"></span>Azure · AWS</span>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- ================= Skills ================= -->
+<section id="skills" class="section py-5 bg-light">
+  <div class="container">
+    <h2 class="h3 title-underline mb-4">Skills</h2>
+    <div class="row g-4">
+      <!-- Backend & APIs -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h6 text-uppercase text-muted mb-3">Backend & APIs</h3>
+            <ul class="skill-list small">
+              <li>Java (8–21), Kotlin</li>
+              <li>Spring Boot, Spring Cloud</li>
+              <li>REST, GraphQL, gRPC</li>
+              <li>OpenAPI/Swagger</li>
+              <li>JPA/Hibernate</li>
+              <li>OAuth2, OIDC, JWT</li>
+              <li>Testing: JUnit, Mockito</li>
+              <li>Performance: JMH, JMeter</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cloud & Data -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h6 text-uppercase text-muted mb-3">Cloud & Data</h3>
+            <ul class="skill-list small">
+              <li>Kubernetes, Docker</li>
+              <li>Kafka, RabbitMQ, NATS</li>
+              <li>PostgreSQL, MySQL</li>
+              <li>Redis, MongoDB</li>
+              <li>Azure, AWS</li>
+              <li>GitLab CI/CD, ArgoCD</li>
+              <li>Observability: Grafana, Prometheus, ELK</li>
+              <li>Secrets & Security: Vault, KMS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional CTA -->
+    <div class="text-center mt-4">
+      <a href="#projects" class="btn btn-primary rounded-pill px-4">See Projects</a>
+    </div>
+  </div>
+</section>
 
   <!-- ============ Experience (Tabs) ============ -->
 <section id="experience" class="section">

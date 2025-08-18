@@ -143,3 +143,30 @@
   .proj-stack li, .meta-pill { font-size: .75rem; }
 }
 
+
+.title-underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: .25rem;
+  }
+  .title-underline::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 50%; height: 3px;
+    border-radius: 3px;
+    background: linear-gradient(90deg,#0a84ff,#6ae3ff);
+  }
+  .chip {
+    display:inline-flex; align-items:center; gap:.5rem;
+    padding:.35rem .75rem; font-size:.85rem; font-weight:600;
+    border:1px solid rgba(10,132,255,.2); border-radius:50rem;
+    background:rgba(10,132,255,.06); color:#0a84ff;
+  }
+  .chip .dot {
+    width:8px; height:8px; border-radius:50%;
+    background:linear-gradient(90deg,#0a84ff,#6ae3ff);
+    display:inline-block;
+  }
+  .skill-list {columns:2; padding-left:1rem; margin:0}
+  .skill-list li {margin-bottom:.25rem}
