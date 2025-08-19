@@ -352,40 +352,52 @@
 </section>
 
 <!-- ============ Projects (with Achievements) ============ -->
-<section id="projects" class="section bg-body-secondary">
+<section id="projects" class="section py-5 bg-light">
   <div class="container">
-    <h2 class="h3 mb-4">Highlighted Projects & Achievements</h2>
+    <h2 class="h3 text-center fw-bold mb-5">🚀 Highlighted Projects & Achievements</h2>
 
     <div class="row g-4">
+
       <!-- Project 1 -->
       <div class="col-md-4">
-        <article class="card h-100 hover-rise proj-card rounded-4">
-          <div class="card-body">
-            <header class="d-flex align-items-start justify-content-between mb-2">
-              <h3 class="h5 mb-0">Control Center & Chat · CGM</h3>
-              <span class="proj-badge">Healthcare · B2B</span>
+        <article class="card h-100 shadow-lg border-0 hover-rise rounded-4">
+          <div class="card-body p-4">
+            <!-- Header -->
+            <header class="d-flex align-items-center justify-content-between mb-3">
+              <h3 class="h5 fw-bold mb-0">Control Center & Chat · CGM</h3>
+              <span class="badge bg-gradient-primary text-white px-3 py-2">Healthcare · B2B</span>
             </header>
-            <p class="small text-muted mb-3">
-              Healthcare AI assistant built with microservices for triage, routing, and clinician productivity.
+
+            <!-- Description -->
+            <p class="small text-muted">
+              Healthcare AI assistant with microservices for clinician triage, routing, and productivity.
             </p>
 
-            <!-- Stack chips -->
-            <ul class="proj-stack">
-              <li>Java 17</li><li>Spring Boot</li><li>Kafka</li><li>PostgreSQL</li><li>Redis</li><li>AKS</li><li>OpenAI APIs</li><li>Grafana</li>
-            </ul>
+            <!-- Tech Stack -->
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge rounded-pill bg-light text-dark">Java 17</span>
+              <span class="badge rounded-pill bg-light text-dark">Spring Boot</span>
+              <span class="badge rounded-pill bg-light text-dark">Kafka</span>
+              <span class="badge rounded-pill bg-light text-dark">PostgreSQL</span>
+              <span class="badge rounded-pill bg-light text-dark">Redis</span>
+              <span class="badge rounded-pill bg-light text-dark">AKS</span>
+              <span class="badge rounded-pill bg-light text-dark">OpenAI APIs</span>
+              <span class="badge rounded-pill bg-light text-dark">Grafana</span>
+            </div>
 
             <!-- Achievements -->
-            <ul class="proj-achievements">
-              <li><strong>30% latency drop</strong> after AKS tuning (HPA + request/limit right-sizing, gRPC for hot paths).</li>
-              <li><strong>40% faster</strong> response for AI-assisted endpoints via prompt optimization & caching (Redis + ELK tracing).</li>
-              <li>Rolled out <strong>blue/green</strong> releases through GitLab CI/CD; <strong>zero-downtime</strong> upgrades.</li>
-              <li>Introduced <strong>SLOs</strong> (99.9% API), alerting on RED metrics; reduced P1 incidents quarter-over-quarter.</li>
+            <ul class="list-unstyled small mb-4">
+              <li>⚡ <strong>30% latency drop</strong> after AKS tuning (HPA, right-sizing, gRPC hot paths).</li>
+              <li>🤖 <strong>40% faster</strong> AI-assisted endpoints using prompt optimization & Redis caching.</li>
+              <li>🔄 <strong>Zero downtime</strong> via GitLab CI/CD blue/green releases.</li>
+              <li>📊 Improved reliability with <strong>99.9% SLOs</strong> & RED metrics alerting.</li>
             </ul>
 
-            <footer class="proj-meta">
-              <span class="meta-pill">Team: 6</span>
-              <span class="meta-pill">Users: 1k+ internal</span>
-              <span class="meta-pill">Role: Lead Backend</span>
+            <!-- Meta -->
+            <footer class="d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">👥 Team: 6</span>
+              <span class="badge bg-secondary">👨‍💻 Role: Lead Backend</span>
+              <span class="badge bg-secondary">🏥 Users: 1k+ internal</span>
             </footer>
           </div>
         </article>
@@ -393,31 +405,37 @@
 
       <!-- Project 2 -->
       <div class="col-md-4">
-        <article class="card h-100 hover-rise proj-card rounded-4">
-          <div class="card-body">
-            <header class="d-flex align-items-start justify-content-between mb-2">
-              <h3 class="h5 mb-0">Energy Microservices Platform</h3>
-              <span class="proj-badge">IoT · Data</span>
+        <article class="card h-100 shadow-lg border-0 hover-rise rounded-4">
+          <div class="card-body p-4">
+            <header class="d-flex align-items-center justify-content-between mb-3">
+              <h3 class="h5 fw-bold mb-0">Energy Microservices Platform</h3>
+              <span class="badge bg-gradient-success text-white px-3 py-2">IoT · Data</span>
             </header>
-            <p class="small text-muted mb-3">
-              Event-driven ingestion and analytics platform processing high-volume telemetry for industrial energy efficiency.
+
+            <p class="small text-muted">
+              Event-driven ingestion & analytics platform for industrial energy efficiency at massive scale.
             </p>
 
-            <ul class="proj-stack">
-              <li>Spring Boot</li><li>Kafka</li><li>PostgreSQL</li><li>Azure AKS</li><li>API Gateway</li><li>GitLab CI/CD</li>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge rounded-pill bg-light text-dark">Spring Boot</span>
+              <span class="badge rounded-pill bg-light text-dark">Kafka</span>
+              <span class="badge rounded-pill bg-light text-dark">PostgreSQL</span>
+              <span class="badge rounded-pill bg-light text-dark">Azure AKS</span>
+              <span class="badge rounded-pill bg-light text-dark">API Gateway</span>
+              <span class="badge rounded-pill bg-light text-dark">GitLab CI/CD</span>
+            </div>
+
+            <ul class="list-unstyled small mb-4">
+              <li>📈 Scaled to <strong>2M+ events/day</strong> using partitioning & back-pressure control.</li>
+              <li>⚙️ Query time cut by <strong>25%</strong> via index tuning & replicas.</li>
+              <li>🔒 Improved SLA to <strong>99.8%</strong> with rate-limited APIs.</li>
+              <li>💰 Reduced infra cost with AKS spot pools & autoscaler.</li>
             </ul>
 
-            <ul class="proj-achievements">
-              <li>Stabilized throughput to <strong>2M+ events/day</strong> with back-pressure & topic partitioning strategy.</li>
-              <li>Query time cut by <strong>~25%</strong> via index tuning, partial indexes & read replicas.</li>
-              <li>Designed <strong>rate-limited</strong> public APIs; improved partner SLA compliance to <strong>99.8%</strong>.</li>
-              <li>Cost-optimized AKS nodes with spot pools and vertical autoscaler (double-digit monthly savings).</li>
-            </ul>
-
-            <footer class="proj-meta">
-              <span class="meta-pill">Team: 8</span>
-              <span class="meta-pill">Events/day: 2M+</span>
-              <span class="meta-pill">Role: Senior Engineer</span>
+            <footer class="d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">👥 Team: 8</span>
+              <span class="badge bg-secondary">🔄 Events/day: 2M+</span>
+              <span class="badge bg-secondary">👨‍💻 Role: Senior Engineer</span>
             </footer>
           </div>
         </article>
@@ -425,40 +443,49 @@
 
       <!-- Project 3 -->
       <div class="col-md-4">
-        <article class="card h-100 hover-rise proj-card rounded-4">
-          <div class="card-body">
-            <header class="d-flex align-items-start justify-content-between mb-2">
-              <h3 class="h5 mb-0">University IAM Platform</h3>
-              <span class="proj-badge">Security · IAM</span>
+        <article class="card h-100 shadow-lg border-0 hover-rise rounded-4">
+          <div class="card-body p-4">
+            <header class="d-flex align-items-center justify-content-between mb-3">
+              <h3 class="h5 fw-bold mb-0">University IAM Platform</h3>
+              <span class="badge bg-gradient-info text-white px-3 py-2">Security · IAM</span>
             </header>
-            <p class="small text-muted mb-3">
-              Identity & Access microservices with CQRS, automated provisioning, and audit-ready event trails.
+
+            <p class="small text-muted">
+              Identity & Access Management platform with CQRS, automated provisioning, and audit trails.
             </p>
 
-            <ul class="proj-stack">
-              <li>Java</li><li>Spring Boot</li><li>CQRS</li><li>Kafka</li><li>Redis</li><li>PostgreSQL</li><li>JUnit/Mockito</li>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge rounded-pill bg-light text-dark">Java</span>
+              <span class="badge rounded-pill bg-light text-dark">Spring Boot</span>
+              <span class="badge rounded-pill bg-light text-dark">CQRS</span>
+              <span class="badge rounded-pill bg-light text-dark">Kafka</span>
+              <span class="badge rounded-pill bg-light text-dark">Redis</span>
+              <span class="badge rounded-pill bg-light text-dark">PostgreSQL</span>
+              <span class="badge rounded-pill bg-light text-dark">JUnit/Mockito</span>
+            </div>
+
+            <ul class="list-unstyled small mb-4">
+              <li>✅ <strong>85%+ test coverage</strong>, reducing regression leaks across releases.</li>
+              <li>⏱️ Pipeline latency down <strong>45%</strong> with async orchestration.</li>
+              <li>🔐 Passed first security audit with <strong>RBAC + JWT rotation</strong>.</li>
+              <li>📦 Added <strong>dead-letter replay</strong>, cutting MTTR significantly.</li>
             </ul>
 
-            <ul class="proj-achievements">
-              <li><strong>85%+</strong> unit test coverage; regression leaks reduced across 3 release cycles.</li>
-              <li>Provisioning pipeline latency down by <strong>~45%</strong> using async orchestration & idempotent consumers.</li>
-              <li>Fine-grained <strong>RBAC</strong> & JWT with rotation policy; passed internal security audit on first attempt.</li>
-              <li>Introduced <strong>dead-letter</strong> handling & replay; improved recovery MTTR significantly.</li>
-            </ul>
-
-            <footer class="proj-meta">
-              <span class="meta-pill">Team: 5</span>
-              <span class="meta-pill">Accounts: 100k+</span>
-              <span class="meta-pill">Role: Senior Dev</span>
+            <footer class="d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">👥 Team: 5</span>
+              <span class="badge bg-secondary">📊 Accounts: 100k+</span>
+              <span class="badge bg-secondary">👨‍💻 Role: Senior Dev</span>
             </footer>
           </div>
         </article>
       </div>
     </div>
 
-    <!-- Optional: one-liner CTA -->
-    <div class="text-center mt-4">
-      <a class="btn btn-primary rounded-pill px-4" href="#experience">See experience details</a>
+    <!-- CTA -->
+    <div class="text-center mt-5">
+      <a class="btn btn-primary btn-lg rounded-pill px-5 shadow-sm" href="#experience">
+        View Full Experience →
+      </a>
     </div>
   </div>
 </section>
